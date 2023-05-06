@@ -1,13 +1,11 @@
 module.exports = {
   preset: "react-native",
-  globals: {
-    "ts-jest": {
-      tsconfig: "tsconfig.json",
-    },
-  },
   transform: {
     "^.+\\.jsx$": "babel-jest",
-    "^.+\\.tsx?$": "ts-jest",
+    '^.+\\.tsx?$': ['ts-jest', {//the content you'd placed at "global"
+      babel: true,
+      tsconfig: 'tsconfig.json',
+    }]
   },
   testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
