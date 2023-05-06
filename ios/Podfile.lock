@@ -347,7 +347,7 @@ PODS:
     - React-Core
   - RNDateTimePicker (7.0.1):
     - React-Core
-  - RNDevMenu (4.0.2):
+  - RNDevMenu (4.1.1):
     - React-Core
     - React-Core/DevSupport
     - React-RCTNetwork
@@ -633,7 +633,7 @@ SPEC CHECKSUMS:
   ReactNativeNavigation: c1c89c03f3d1b70e4bcb1090fd9442d499c4d3c3
   RNCAsyncStorage: b90b71f45b8b97be43bc4284e71a6af48ac9f547
   RNDateTimePicker: e073697ac3e8a378968d68ab0581fef542b8af8a
-  RNDevMenu: fd325b5554b61fe7f48d9205a3877cf5ee88cd7c
+  RNDevMenu: 72807568fe4188bd4c40ce32675d82434b43c45d
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNGestureHandler: 071d7a9ad81e8b83fe7663b303d132406a7d8f39
   RNImageCropPicker: 14fe1c29298fb4018f3186f455c475ab107da332
