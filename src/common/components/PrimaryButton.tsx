@@ -71,7 +71,7 @@ export const PrimaryButton: FC<IProps> = memo(
           </>
         );
       }
-    }, [icon, iconStyle, isLoading, label, labelStyle, styles.icon, styles.label]);
+    }, [icon, iconStyle, isLoading, label, labelStyle, styles.icon, styles.label, platformIconProps]);
 
     return (
       <TouchablePlatform style={[styles.button, style] as any} highlightColor={highlightColor} {...props}>
